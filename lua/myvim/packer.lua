@@ -81,6 +81,7 @@ return require('packer').startup(function(use)
   }
   use ("lukas-reineke/indent-blankline.nvim")
   use('mrjones2014/smart-splits.nvim') 
+  use("lewis6991/gitsigns.nvim")
 end)
 
 
